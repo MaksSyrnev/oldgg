@@ -1,0 +1,15 @@
+.header {
+  margin: 0;
+  padding: 1em;
+  border: solid 1px #c3c3c3;
+  border-radius: .5em;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  z-index: 10;
+}
+
+.logo {
+  width: 289px;
+  opacity: .9;
+}

@@ -1,0 +1,28 @@
+.body-page {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+}
+
+.page-conteiner {
+  position: relative;
+}
+
+.content {
+  position: relative;
+  width: 1020px;
+  height: 100vh;
+  margin: 0;
+  padding: .2em;
+  box-sizing: border-box;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}

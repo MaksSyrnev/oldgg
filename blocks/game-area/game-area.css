@@ -1,0 +1,9 @@
+.game-area {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+    background: #141414;
+    overflow: hidden;
+    z-index: 9;
+}
