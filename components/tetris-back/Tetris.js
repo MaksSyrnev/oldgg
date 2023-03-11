@@ -1,4 +1,5 @@
 import { tetrominos } from './tetrominos.js';
+
 export const Tetris = function (x, y, width, height) {
     this.posX = x || 0;
     this.posY = y || 0;
@@ -94,7 +95,7 @@ Tetris.prototype.init = function () {
     var self = this;
 
     window.addEventListener('keydown', function (e) {
-        switch (e.keyCode) {
+        switch (e.key.charCodeAt) {
             case 37:
                 if (self.checkMovement(curPiece, -1, 0)) {
                     curPiece.x--;

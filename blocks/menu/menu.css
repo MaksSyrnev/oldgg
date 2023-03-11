@@ -1,0 +1,53 @@
+.menu {
+    position: absolute;
+    top: 20em;
+    left: 2em;
+    z-index: 9;
+}
+
+.main-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: .9em;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+
+.main-menu__item {
+    position: relative;
+    margin-bottom: .5em;
+}
+
+a {
+    padding: .5em;
+    text-decoration: none;
+}
+
+.main-menu__item:hover::before {
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: -2px;
+    background-image: url('../../images/arrowDark1.gif');
+    width: 20px;
+    height: 20px;
+
+}
+
+.main-menu__item::before {
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: -2px;
+    background-image: url('../../images/arrowLight.gif');
+    width: 20px;
+    height: 20px;
+    transition: 0.4s;
+
+}
+
+a:hover {
+    text-decoration: none;
+}
